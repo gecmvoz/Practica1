@@ -1,0 +1,121 @@
+.cabecera{
+    padding-left: 50px;
+    padding-top: 50px;
+    width: 150px;
+    height: 150px;
+}
+
+.Logo1{
+    width: 150px;
+    height: 150px;
+}
+
+body{
+    background-color: #e6e6e6;
+}
+
+.nav-menu{
+    background-color: skyblue;
+}
+.nav-lista{
+    padding-left: 10px;
+    list-style: none;
+    font-size: 1.2rem;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    height: 40px;
+    margin: 10px;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.contenedor-articulos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contenedor-articulos article{
+    height: 50% of contenedor-articulos;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.contenedor-asides{
+    width: 30%;
+    background-color: red;
+    color: white;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.contenedor-asides h4{
+    margin: 0px;
+}
+
+.pie-pagina{
+    background-color: black;
+    color: #fff;
+    clear: both;
+    text-align: center;
+}
+
+/*header, main, footer{
+    background-color: #fff;
+    max-width: 90%;
+    margin: 20px auto;
+}
+
+header nav{
+    background-color: #528fd5;
+}
+
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    float: left;
+}
+
+header nav ul li:hover{
+    color: #3efa00;
+}
+
+.main .articles{
+    width: 70%;
+    float: left;
+}
+
+.main .articles article{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+aside{
+    width: 30%;
+    background-color: red;
+    color: white;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    clear: both;
+    text-align: center;
+}
+section{
+    display: in;
+}*/
